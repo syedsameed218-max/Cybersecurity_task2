@@ -23,7 +23,7 @@ The email was analyzed using its `.eml` file so that both the visible email cont
 
 The email presents itself as a business communication from Wintermute Trading. The sender details were checked against the technical email headers for further verification.
 
-![Sender Information](senderinfo.png)
+![Sender Information](Cybersecurity_Task2/senderinfo.png)
 
 ---
 
@@ -39,7 +39,7 @@ The email headers were checked to verify whether the sender information matched 
 
 The DMARC failure is a major warning sign because the claimed `wintermute.com` sender did not pass DMARC authentication. The different domains shown in the sender and return-path information also make the email suspicious.
 
-![Header Analysis](header_analysis.png)
+![Header Analysis](Cybersecurity_Task2/header_analysis.png)
 
 ---
 
@@ -53,7 +53,7 @@ The link directs the recipient to a private Telegram group for further communica
 
 The link was identified from the email source without opening or visiting it.
 
-![Link Analysis](linkanalysis.png)
+![Link Analysis](Cybersecurity_Task2/linkanalysis.png)
 
 ---
 
@@ -69,7 +69,7 @@ The email uses a business partnership theme to make the message appear legitimat
 
 These techniques can make the recipient more likely to trust the message and interact with the provided link.
 
-![Email Body Analysis](emailbodyanalysis.png)
+![Email Body Analysis](Cybersecurity_Task2/emailbodyanalysis.png)
 
 ---
 
